@@ -1,0 +1,195 @@
+{
+  "note": "day_offset & time dipakai storage.js untuk membentuk created_at relatif terhadap hari ini agar dashboard selalu terisi.",
+  "transactions": [
+    {
+      "id": "trx-0001",
+      "customer_name": "Budi",
+      "note": "Teh tarik satu kurang manis",
+      "day_offset": 0,
+      "time": "10:15",
+      "payment_status": "paid",
+      "payment_method": "cash",
+      "amount_received": 20000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-011", "qty": 2 },
+        { "product_id": "prd-007", "qty": 1 }
+      ]
+    },
+    {
+      "id": "trx-0002",
+      "customer_name": "Rina",
+      "note": "",
+      "day_offset": 0,
+      "time": "11:40",
+      "payment_status": "paid",
+      "payment_method": "qris",
+      "amount_received": 20000,
+      "order_status": "diproses",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-003", "qty": 1 },
+        { "product_id": "prd-012", "qty": 1 }
+      ]
+    },
+    {
+      "id": "trx-0003",
+      "customer_name": "Andi",
+      "note": "Dibungkus",
+      "day_offset": 0,
+      "time": "12:05",
+      "payment_status": "unpaid",
+      "payment_method": null,
+      "amount_received": null,
+      "order_status": "diterima",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-004", "qty": 1 },
+        { "product_id": "prd-006", "qty": 1 }
+      ]
+    },
+    {
+      "id": "trx-0004",
+      "customer_name": "Sari",
+      "note": "",
+      "day_offset": 1,
+      "time": "19:20",
+      "payment_status": "paid",
+      "payment_method": "cash",
+      "amount_received": 25000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-002", "qty": 1 },
+        { "product_id": "prd-017", "qty": 1 }
+      ]
+    },
+    {
+      "id": "trx-0005",
+      "customer_name": "Dewi",
+      "note": "",
+      "day_offset": 1,
+      "time": "20:05",
+      "payment_status": "paid",
+      "payment_method": "cash",
+      "amount_received": 15000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-005", "qty": 2 },
+        { "product_id": "prd-009", "qty": 1 }
+      ]
+    },
+    {
+      "id": "trx-0006",
+      "customer_name": "Joko",
+      "note": "",
+      "day_offset": 2,
+      "time": "16:30",
+      "payment_status": "paid",
+      "payment_method": "qris",
+      "amount_received": 17000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-011", "qty": 1 },
+        { "product_id": "prd-010", "qty": 1 }
+      ]
+    },
+    {
+      "id": "trx-0007",
+      "customer_name": "Maya",
+      "note": "",
+      "day_offset": 3,
+      "time": "21:15",
+      "payment_status": "paid",
+      "payment_method": "cash",
+      "amount_received": 20000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-015", "qty": 1 },
+        { "product_id": "prd-008", "qty": 2 }
+      ]
+    },
+    {
+      "id": "trx-0008",
+      "customer_name": "Ayu",
+      "note": "",
+      "day_offset": 4,
+      "time": "17:45",
+      "payment_status": "paid",
+      "payment_method": "cash",
+      "amount_received": 25000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-002", "qty": 1 },
+        { "product_id": "prd-012", "qty": 1 },
+        { "product_id": "prd-006", "qty": 1 }
+      ]
+    },
+    {
+      "id": "trx-0009",
+      "customer_name": "Rizky",
+      "note": "Nasi goreng pedas",
+      "day_offset": 5,
+      "time": "18:00",
+      "payment_status": "paid",
+      "payment_method": "transfer",
+      "amount_received": 38000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-004", "qty": 2 },
+        { "product_id": "prd-013", "qty": 2 }
+      ]
+    },
+    {
+      "id": "trx-0010",
+      "customer_name": "Tamu",
+      "note": "Pesanan dibatalkan pembeli",
+      "day_offset": 6,
+      "time": "22:10",
+      "payment_status": "unpaid",
+      "payment_method": null,
+      "amount_received": null,
+      "order_status": "dibatalkan",
+      "created_by": "usr-002",
+      "items": [{ "product_id": "prd-001", "qty": 1 }]
+    },
+    {
+      "id": "trx-0011",
+      "customer_name": "Fajar",
+      "note": "",
+      "day_offset": 8,
+      "time": "20:45",
+      "payment_status": "paid",
+      "payment_method": "cash",
+      "amount_received": 12000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-016", "qty": 1 },
+        { "product_id": "prd-006", "qty": 1 }
+      ]
+    },
+    {
+      "id": "trx-0012",
+      "customer_name": "Nina",
+      "note": "",
+      "day_offset": 12,
+      "time": "19:05",
+      "payment_status": "paid",
+      "payment_method": "cash",
+      "amount_received": 20000,
+      "order_status": "selesai",
+      "created_by": "usr-002",
+      "items": [
+        { "product_id": "prd-003", "qty": 1 },
+        { "product_id": "prd-011", "qty": 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "cat-001",
+    "name": "Makanan",
+    "description": "Mie, nasi, dan bakso hangat"
+  },
+  {
+    "id": "cat-002",
+    "name": "Camilan",
+    "description": "Gorengan dan camilan pendamping"
+  },
+  {
+    "id": "cat-003",
+    "name": "Minuman",
+    "description": "Teh tarik, kopi, dan minuman susu"
+  }
+]
